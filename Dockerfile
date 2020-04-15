@@ -21,5 +21,8 @@ RUN npm run build
 # Create another image after the one above has completed
 FROM nginx
 
+# Specify the port to expose in your docker container -> Mainly used for elasticbeanstalk
+EXPOSE 80
+
 # Copy the required file, created by the 'builder' stage from the '/app/build' location, into '/usr/share/nginx/html'
 COPY --from=builder /app/build /usr/share/nginx/html

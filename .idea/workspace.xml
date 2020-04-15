@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="f89d998a-3202-40fa-b1ea-8ecf84758a45" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +55,7 @@
       <updated>1586889584195</updated>
       <workItem from="1586889586003" duration="923000" />
       <workItem from="1586938172865" duration="132000" />
-      <workItem from="1586938321435" duration="2822000" />
+      <workItem from="1586938321435" duration="3771000" />
     </task>
     <servers />
   </component>
