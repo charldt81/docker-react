@@ -7,3 +7,26 @@ before_install:
 
 script:
   - docker run -e CI=true cd81/docker-react npm run test -- --coverage
+
+# For AWS deployment
+# NOTE!!! The details below are gathered form AWS, this was copied from the tutorial video as I
+# do not have a valid AWS account.
+
+#deploy:
+#  provider: elasticbeanstalk
+#  region: "us-west-2"
+#  app: "docker-react"
+#  env: "Docker-env"
+#  bucket_name: "elasticbeanstalk-us-west-2-30647662754"
+#  bucket_path: "docker-react"
+
+  # Specify which branch needs to be deployed when changes are received
+#  on:
+#    branch: master
+
+  # These keys were generated in AWS, and stored in Travis Environment Variables for secure use...
+  # The keys were saved under the names '$AWS_ACCESS_KEY' and '$AWS_SECRET_KEY'
+#  access_key_id: $AWS_ACCESS_KEY
+#  secret_access_key:
+#    secure: "$AWS_SECRET_KEY"
+
